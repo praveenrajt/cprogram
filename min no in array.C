@@ -19,6 +19,6 @@ void main()
       no=a[i];
     }
   }
-  printf("\n The greatest no is=%d",no);
+  printf("\n The min no is=%d",no);
   getch();
 }
