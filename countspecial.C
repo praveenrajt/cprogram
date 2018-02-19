@@ -14,6 +14,6 @@ void main()
       c++;
     }
   }
-  printf("\n no of numeric in string=%d",c);
+  printf("\n no of special in string=%d",c);
   getch();
 }
