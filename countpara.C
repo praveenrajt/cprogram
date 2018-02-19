@@ -8,9 +8,9 @@ void main()
   gets(s);
   for(i=0;i<=strlen(s);i++)
   {
-    if((s[i]>='a'&&s[i]=<'z')||(s[i]>='A'&&s[i]<='Z'))
-    {
+  if(s[i]=='.')
       c++;
-    }
   }
+  printf("\n no.of para=%d",c);
+  getch();
 }
