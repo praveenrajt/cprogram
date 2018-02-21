@@ -7,7 +7,7 @@ printf("\n Enter a=");
 scanf("%d",&a);
 for(i=1;i!=0;i++)
 {
-c=2*2;
+c=c*i;
 if(c==a)
 {
 printf("\n yes");
