@@ -2,17 +2,21 @@
 #include<conio.h>
 void main()
 {
-int i=0,c=0,a=0;
+int i=0,c=1,a=0;
 printf("\n Enter a=");
 scanf("%d",&a);
-for(i=1;i!=0;i++)
+for(i=1;i<=0;i++)
 {
-c=c*i;
+c=c*2;
 if(c==a)
 {
-printf("\n yes");
+
 break;
 }
 }
+  if(c==a)
+    printf("yes");
+  else
+    printf("no");
 getch();
 }
